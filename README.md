@@ -1,12 +1,12 @@
 # The Taxonomy Sort
-Contributors: RistoNiinemets
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=XE45WDB3XEN6J&lc=EE&item_name=WordPress%20plugins&item_number=wordpress%2dplugin&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
-Tags: terms, taxonomy, sorting, ordering, categories
-Stable tag: 1.0
-Tested up to: 3.5.1
-Requires at least: 3.0.1
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Contributors: RistoNiinemets
+* Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=XE45WDB3XEN6J&lc=EE&item_name=WordPress%20plugins&item_number=wordpress%2dplugin&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+* Tags: terms, taxonomy, sorting, ordering, categories
+* Stable tag: 1.0
+* Tested up to: 3.5.1
+* Requires at least: 3.0.1
+* License: GPLv2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Allows you to easily change the order of different taxonomies/terms/categories.
 
