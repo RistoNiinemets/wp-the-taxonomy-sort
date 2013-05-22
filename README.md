@@ -16,7 +16,7 @@ Most commonly taxonomy sorting plugins will create a new interface to drag or or
 
 ## Installation
 
-1. Upload `amazing-ecommerce/` folder to the `/wp-content/plugins/` directory
+1. Upload `the-taxonomy-sort/` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to taxonomy page (for example Posts -> Categories) and drag the table rows to change ordering.
 
