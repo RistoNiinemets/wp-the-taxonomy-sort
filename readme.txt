@@ -2,8 +2,8 @@
 Contributors: RistoNiinemets
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=XE45WDB3XEN6J&lc=EE&item_name=WordPress%20plugins&item_number=wordpress%2dplugin&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: terms, taxonomy, sorting, ordering, categories
-Stable tag: 1.0
-Tested up to: 3.5.1
+Stable tag: 1.1
+Tested up to: 3.5.2
 Requires at least: 3.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -24,9 +24,12 @@ Most commonly taxonomy sorting plugins will create a new interface to drag or or
 
 = Is there a way to disable it for some taxonomies? =
 
-As of version 1.0, there is not. 
+As of version 1.1, there is not. 
 
 == Changelog ==
+= 1.1 =
+* Fix: Uninstallation hook notice
+* Feature: Activity spinner on saving the order
 
 = 1.0 =
 * Welcoming plugin to WordPress plugins!
