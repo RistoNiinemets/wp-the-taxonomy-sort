@@ -12,7 +12,8 @@ jQuery( document ).ready( function( $ )
 			scrollSensitivity: 40,
 			stop: function( event, ui ) {
 				// array for the ids and positions
-				var rows	= new Array([]);
+				var rows	= new Array([]),
+					taxonomy_name = $( 'input[name="taxonomy"]' ).val();
 
 				// show "activity" with spinner
 				thets_activity_spinner( true );
@@ -23,7 +24,11 @@ jQuery( document ).ready( function( $ )
 				} );
 
 				// post rows for sorting
-				$.post( ajaxurl, { 'rows' : rows, 'action' : 'get_inline_boxes' }, function(response) {
+				$.post( ajaxurl, {
+					'rows' : rows,
+					'taxonomy_name' : taxonomy_name,
+					'action' : 'get_inline_boxes'
+				}, function(response) {
 					// stop activity spinner
 					thets_activity_spinner( false );
 				});
