@@ -128,7 +128,7 @@ class TheTaxonomySort {
 		}
 
 		// make sure user can manage categories
-		if (current_user_can( 'manage_categories' )) {
+		if ( ! current_user_can( 'manage_categories' )) {
 			die(-1);
 		}
 
